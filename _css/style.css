@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    margin-top: 50px;
+}
+
+body{
+    background-color: #f7ac12;
+}
+
+
+.logoPrincipal{
+    display: flex;
+    justify-content: center;
+    
+        
+}
+
+.logoPrincipal #Alinhado{
+    width: 250px;
+    vertical-align: bottom;
+    margin-top: 89px;
+}
+
+.infinite-logo {
+    height: 265px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    
+}
+
+
+.infinite-logo ul li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    margin-right: -120px
+    
+}
+
+
+.infinite-logo ul {
+    animation: infiniteLogo 8s ease 1;
+}
+
+
+
+@keyframes infiniteLogo {
+    from {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(0, -265px);
+    }
+    30% {
+        transform: translate(0, -265px);
+    }
+    40% {
+        transform: translate(0, -265px);
+    }
+    50% {
+        transform: translate(0, -525px);
+    }
+    60% {
+        transform: translate(0, -525px);
+    }
+    70% {
+        transform: translate(0, -525px);
+    }
+    80% {
+        transform: translate(0, -785px);
+    }
+    90% {
+        transform: translate(0, -785px);
+    }
+    to {
+        transform: translate(0, -1045px);
+    }
+}    
